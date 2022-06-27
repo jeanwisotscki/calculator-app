@@ -6,8 +6,51 @@
 
 body {
   font-family: "League Spartan", sans-serif;
+  background-color: hsl(222, 26%, 31%);
+  color: white;
 }
 
 button {
   cursor: pointer;
+}
+
+.App {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.App header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+#screen {
+  background-color: black;
+  font-size: 2rem;
+  text-align: right;
+  line-height: 1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+#buttons {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  padding: 1rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+#buttons .teste {
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+#buttons button {
+  width: 100%;
 }
