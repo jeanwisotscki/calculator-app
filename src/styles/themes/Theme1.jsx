@@ -21,3 +21,15 @@
 
 // - Very dark grayish blue: hsl(221, 14%, 31%)
 // - White: hsl(0, 0, 100%)
+
+import React from "react";
+
+const Theme1 = () => {
+  return (
+    <div>
+      <h1 style={{ color: "red" }}>Tema 1</h1>
+    </div>
+  );
+};
+
+export default Theme1;

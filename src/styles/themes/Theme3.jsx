@@ -21,3 +21,15 @@
 // - Light yellow: hsl(52, 100%, 62%)
 // - Very dark blue: hsl(198, 20%, 13%)
 // - White (text): hsl(0, 0, 100%)
+
+import React from "react";
+
+function Theme3() {
+  return (
+    <div>
+      <h1 style={{ color: "green" }}>Tema 3</h1>
+    </div>
+  );
+}
+
+export default Theme3;

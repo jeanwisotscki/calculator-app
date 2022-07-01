@@ -21,3 +21,15 @@
 
 // - Very dark grayish yellow: hsl(60, 10%, 19%)
 // - White (text): hsl(0, 0, 100%)
+
+import React from "react";
+
+function Theme2() {
+  return (
+    <div>
+      <h1 style={{ color: "blue" }}>Tema 2</h1>
+    </div>
+  );
+}
+
+export default Theme2;
